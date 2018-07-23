@@ -6,12 +6,15 @@
 <script src="https://unpkg.com/vue"></script>
 
 <div id="app">
+  <p>{{ version }}</p>
   <p>{{ message }}</p>
 </div>
 <script>
+  
     const app = new Vue({
   el: '#app',
   data: {
+    version: 'V: 0.1',
     message: 'Hello World From Chengchen Zhang From Oaks 1503!'
   }
 })
