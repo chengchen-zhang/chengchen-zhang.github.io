@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link href="style.css" rel="stylesheet" />
+
+<title>Scatter Plot</title>
+
+<script src="https://d3js.org/d3.v4.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+<script src="pablo.min.js"></script>
+
+
+</head>
+
+
+<div id="main1"></div>
+
+
+</body>
+<script src="VQI_ScatterPlot.js"></script>
+
+<script>
+
+var vqi_scatter_plot_sample_data = [
+   [1,4,'a'],
+   [3,8,'b'],
+   [-4,3,'c']
+]; var chrPlot = new VQI_ScatterPlot('main1');
+            chrPlot.makeGraph(vqi_scatter_plot_sample_data);
+            </script>
+</html>
